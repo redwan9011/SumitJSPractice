@@ -5,14 +5,19 @@ for (const element of array) {
 
 const obj = { a: 1, b: 2, c: 3 };
 Object.keys(obj).forEach(key => {
-  console.log(key,obj[key]);
+//   console.log(key,obj[key]);
 });
 const obje = { a: 1, b: 2, c: 3 };
 for (const key in obje) {
-  console.log(key, obje[key]);
+//   console.log(key, obje[key]);
 }
 
 const object = { a: 1, b: 2, c: 3 };
 Object.values(object).forEach(value => {
-  console.log(value);
+//   console.log(value);
+});
+
+const ob = { a: 1, b: 2, c: 3 };
+Object.entries(ob).forEach(([keyy, valuee]) => {
+  console.log( keyy,  valuee);
 });
