@@ -34,3 +34,18 @@ Math.random() *10 //return 0-10 randomly (line 2.4, 5, 4)
 
 const num =Math.floor(Math.random() *10);  //evabe dile integer number dibe, nahoy always . num dibe
 console.log(num);
+
+
+// common formula for random
+
+// min included, max excluded
+function getRandomInteger (min, max) {
+    return Math.floor(Math.random() * (max -min) + min)
+}
+
+function getRandomInteger (min, max) {
+    return Math.floor(Math.random() * (max -min + 1) + min)
+}
+
+
+// min  max both included
